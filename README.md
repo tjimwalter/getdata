@@ -3,7 +3,7 @@ Class assignment from Coursera's Getting and Cleaning Data course
 
 ## About this analysis
 * Script name : run_analysis.R _sourcing this R file will drive the process
-* Codebook    : codebook.txt describes the data and steps taken to create it
+* Codebook    : CodeBook.md describes the data and steps taken to create it
 * Dependencies: the UCI dataset must be in your working directory in a subdirectory named 'data'
 
 ## What it does
