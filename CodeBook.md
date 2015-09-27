@@ -33,6 +33,43 @@ NB: there where 299 rows with NAs from 10299 rows overall
 ## Layout & organization                                                   
 * 180 rows (one for each subject/activity combination: 30x6)
 * 88 columns: (subjectID, activity, 86 feature measures)
+  * subjectID is an integer
+  * activity is a character (factor) with 6 levels
+    * WALKING
+    * WALKING_UPSTAIRS
+    * WALKING_DOWNSTAIRS
+    * SITTING
+    * STANDING
+    * LAYING
+  * Each measure (86) is a mean of either a mean or stdDev. The column names make clear which
 
+  These signals were used to estimate variables of the feature vector for each pattern:  
+  '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+  tBodyAcc-XYZ
+  tGravityAcc-XYZ
+  tBodyAccJerk-XYZ
+  tBodyGyro-XYZ
+  tBodyGyroJerk-XYZ
+  tBodyAccMag
+  tGravityAccMag
+  tBodyAccJerkMag
+  tBodyGyroMag
+  tBodyGyroJerkMag
+  fBodyAcc-XYZ
+  fBodyAccJerk-XYZ
+  fBodyGyro-XYZ
+  fBodyAccMag
+  fBodyAccJerkMag
+  fBodyGyroMag
+  fBodyGyroJerkMag
+
+  Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
+
+  gravityMean
+  tBodyAccMean
+  tBodyAccJerkMean
+  tBodyGyroMean
+  tBodyGyroJerkMean
 
 
