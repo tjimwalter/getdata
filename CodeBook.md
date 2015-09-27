@@ -21,7 +21,7 @@
 * In general the subject and y file provide context to the X file
 
 
-## Explaning the transformation
+## Explaining the transformation
 1. cbind the subject, X and y files for training and test. This gives you the subject, the activity they were performing and measures associated
 2. rbind the training and test datasets
 3. The features.txt labels were used as column names for the X columns
