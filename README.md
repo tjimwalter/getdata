@@ -2,9 +2,9 @@
 Class assignment from Coursera's Getting and Cleaning Data course
 
 ## About this analysis
-* Script name: run_analysis.R
-* Dependencies: the UCI dataset (described below) must be in your working directory in a subdirectory named 'data'
-* If the data isn't found, the script will download the data for you
+* Script name : run_analysis.R _sourcing this R file will drive the process
+* Codebook    : codebook.txt describes the data and steps taken to create it
+* Dependencies: the UCI dataset must be in your working directory in a subdirectory named 'data'
 
 ## What it does
  1. Downloads the data, if not present
